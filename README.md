@@ -1,188 +1,81 @@
-# MicroEvalX-
+# MicroEvalX - Microservices for File Encryption and Decryption
 
-### 1. **Authentication Service**
+## Overview
+MicroEvalX is a robust microservice architecture designed to securely handle the encryption and decryption of files stored in a cloud environment. This system uses modern security practices to ensure that all file operations are secure and scalable, suitable for enterprise-level applications.
 
-#### **Fungsi**: 
-- Mengelola otentikasi pengguna (login, registrasi, logout) dengan dukungan JWT.
+## Architecture
+MicroEvalX consists of several microservices, each responsible for a part of the system functionality. The architecture promotes scalability, security, and efficient data handling.
 
-#### **Layanan Utama**:
-- **API Login** (`POST /auth/login`): Menerima email dan password pengguna, menghasilkan token JWT.
-- **API Register** (`POST /auth/register`): Menerima data pengguna dan menyimpan data pengguna baru di database.
-- **API Logout** (`POST /auth/logout`): Invalidasi token JWT.
+### Microservices:
+1. **Authentication Service**
+2. **User Profile Service**
+3. **Encryption Service**
+4. **Decryption Service**
+5. **File Management Service**
+6. **API Gateway**
+7. **Key Management Service** (Optional)
+8. **Logging Service** (Optional)
+9. **Monitoring Service** (Optional)
 
-#### **Skema Database** (PostgreSQL via **Supabase**):
-```sql
-CREATE TABLE users (
-  id UUID PRIMARY KEY,
-  username VARCHAR(255),
-  email VARCHAR(255) UNIQUE,
-  password_hash TEXT,
-  created_at TIMESTAMPTZ DEFAULT NOW(),
-  updated_at TIMESTAMPTZ DEFAULT NOW()
-);
-```
-- **Koneksi Database**: PostgreSQL di-host oleh Supabase untuk penyimpanan pengguna dan pengelolaan data login.
-- **Autentikasi**: Menggunakan **JWT** untuk mengelola sesi pengguna.
+## Features
 
-#### **Layanan Pengujian**:
-- **Postman** atau **JMeter**: Untuk menguji waktu respons API login dan register.
-- **OWASP ZAP**: Untuk menguji keamanan autentikasi dan melindungi dari serangan brute force atau SQL injection.
+### 1. Authentication Service
+- Handles user authentication processes such as login, registration, and logout.
+- Uses JSON Web Tokens (JWT) to manage user sessions securely.
 
----
+### 2. User Profile Service
+- Manages user profile information including updating and retrieving user details.
+- Integrates with the Authentication Service for secure access to user data.
 
-### 2. **User Profile Service**
+### 3. Encryption Service
+- Provides file encryption services using AES CFB mode before storing files in the database.
+- Works with the Key Management Service for secure key handling.
 
-#### **Fungsi**:
-- Mengelola profil pengguna, seperti nama lengkap, email, alamat, nomor telepon, dan gambar profil.
+### 4. Decryption Service
+- Handles decryption of files upon user request, ensuring files are securely transmitted back to the user.
 
-#### **Layanan Utama**:
-- **API Get Profile** (`GET /profile/{user_id}`): Mendapatkan data profil pengguna.
-- **API Update Profile** (`PUT /profile/{user_id}`): Memperbarui data profil pengguna.
-- **API Delete Profile** (`DELETE /profile/{user_id}`): Menghapus data profil pengguna.
+### 5. File Management Service
+- Manages file uploads and downloads, maintaining a secure and efficient file storage system.
+- Ensures integrity checks and supports large file operations.
 
-#### **Skema Database** (PostgreSQL via **Supabase**):
-```sql
-CREATE TABLE profiles (
-  user_id UUID REFERENCES users(id),
-  full_name VARCHAR(255),
-  email VARCHAR(255),
-  address TEXT,
-  phone_number VARCHAR(20),
-  profile_picture_url TEXT,
-  created_at TIMESTAMPTZ DEFAULT now(),
-  updated_at TIMESTAMPTZ DEFAULT now()
-);
-```
-- **Koneksi Database**: PostgreSQL di-host oleh Supabase, untuk penyimpanan data profil pengguna.
+### 6. API Gateway
+- Routes requests to appropriate microservices and handles load balancing.
+- Manages API request authentication and authorization.
 
-#### **Layanan Pengujian**:
-- **Postman** atau **JMeter**: Untuk menguji performa endpoint `GET` dan `PUT` dari User Profile Service.
-- **SonarQube**: Untuk menganalisis kualitas kode dari API dan maintainability.
+### 7. Key Management Service (Optional)
+- Manages encryption keys, providing key storage, rotation, and retrieval functionality.
 
----
+### 8. Logging Service (Optional)
+- Captures and stores logs from all microservices, providing insights and aiding in troubleshooting.
 
-### 3. **Encryption Service**
+### 9. Monitoring Service (Optional)
+- Monitors microservice health and performance, alerting administrators to potential issues.
 
-#### **Fungsi**:
-- Mengenkripsi dan mendekripsi file yang diunggah oleh pengguna.
+## Technology Stack
 
-#### **Layanan Utama**:
-- **API Encrypt** (`POST /encrypt`): Mengunggah file untuk dienkripsi menggunakan AES, DES, atau RC4.
-- **API Decrypt** (`POST /decrypt`): Mengunggah file terenkripsi untuk didekripsi.
+### Database
+- **Supabase PostgreSQL**: Main database for storing user and file metadata.
+- **MongoDB/Firebase**: Used by the Encryption Service to store encrypted file metadata.
 
-#### **Skema Database** (MongoDB atau Firebase):
-- **MongoDB**: Untuk menyimpan metadata file yang telah dienkripsi.
-```json
-{
-  "file_id": "UUID",
-  "user_id": "UUID",
-  "encryption_type": "AES",
-  "original_filename": "file.txt",
-  "encrypted_filename": "file_encrypted.aes",
-  "created_at": "timestamp",
-  "file_size": 1024
-}
-```
-- **Penyimpanan File**: File terenkripsi dapat disimpan di **Supabase Storage** atau penyimpanan eksternal seperti **AWS S3** atau **Google Cloud Storage**.
+### Storage
+- **Supabase Storage/AWS S3**: For storing encrypted files, ensuring high availability and security.
 
-#### **Layanan Pengujian**:
-- **Gatling** atau **JMeter**: Untuk menguji throughput enkripsi dan dekripsi file.
-- **Chaos Monkey**: Untuk mensimulasikan kegagalan layanan dan menguji fault tolerance serta recovery time.
+### Security
+- **OWASP ZAP, SonarQube**: Tools for security testing and code quality analysis.
+- **AWS KMS/HashiCorp Vault**: For managing encryption keys securely.
 
----
+### Testing and Monitoring
+- **Postman, JMeter**: For API testing and performance evaluation.
+- **Gatling, Chaos Monkey**: For load testing and resilience testing.
+- **Prometheus, Grafana**: For monitoring services and visualizing metrics.
+- **Kibana, Grafana + Loki**: For log management and analysis.
 
-### 4. **File Management Service**
+### Deployment
+- **Docker & Kubernetes**: For containerization and orchestration, enabling easy scaling and management of microservices.
+- **Istio**: Service mesh for secure and efficient service-to-service communication.
 
-#### **Fungsi**:
-- Mengelola unggahan dan pengunduhan file yang terenkripsi atau tidak terenkripsi.
+## Setup and Deployment
+Detailed instructions on setting up and deploying the microservices will be provided, covering configuration, dependencies, and environmental setup.
 
-#### **Layanan Utama**:
-- **API Upload File** (`POST /upload`): Mengunggah file ke penyimpanan.
-- **API Download File** (`GET /download/{file_id}`): Mengunduh file yang sudah diunggah sebelumnya.
-- **API Delete File** (`DELETE /file/{file_id}`): Menghapus file berdasarkan ID.
-
-#### **Skema Database** (PostgreSQL via **Supabase**):
-```sql
-CREATE TABLE files (
-  file_id UUID PRIMARY KEY,
-  user_id UUID REFERENCES users(id),
-  file_name VARCHAR(255),
-  file_size INTEGER,
-  file_type VARCHAR(50),
-  file_url TEXT,
-  uploaded_at TIMESTAMPTZ DEFAULT now()
-);
-```
-- **Penyimpanan File**: File bisa disimpan di **Supabase Storage**, **AWS S3**, atau **Google Cloud Storage** untuk skalabilitas tinggi.
-
-#### **Layanan Pengujian**:
-- **Locust**: Untuk menguji throughput unggahan dan pengunduhan file, serta seberapa baik layanan dapat menangani permintaan bersamaan.
-- **Grafana + Prometheus**: Untuk memantau throughput dan waktu respons dari microservice ini.
-
----
-
-### 5. **API Gateway**
-
-#### **Fungsi**:
-- Meneruskan permintaan klien ke microservice yang relevan dan mengelola autentikasi serta routing.
-
-#### **Layanan Utama**:
-- **Routing**: Rute API ke layanan yang sesuai (misalnya, permintaan `/auth/login` diteruskan ke Authentication Service).
-- **Load Balancing**: Membagi beban permintaan antara replika layanan yang berbeda.
-- **Autentikasi**: Validasi token JWT yang dihasilkan oleh Authentication Service.
-
-#### **Layanan Pengujian**:
-- **Postman**: Untuk menguji bagaimana permintaan dirutekan oleh API Gateway.
-- **Gremlin**: Untuk menguji ketersediaan dan fault tolerance dari API Gateway.
-
----
-
-### 6. **Logging Service (Opsional)**
-
-#### **Fungsi**:
-- Merekam aktivitas yang terjadi di setiap microservice (request, error, dll.).
-
-#### **Skema Database** (Elasticsearch atau Supabase PostgreSQL):
-- **Elasticsearch**: Untuk menyimpan dan melakukan kueri terhadap log yang dihasilkan oleh berbagai layanan.
-```json
-{
-  "log_id": "UUID",
-  "service_name": "auth_service",
-  "log_level": "ERROR",
-  "message": "User not found",
-  "timestamp": "timestamp"
-}
-```
-
-#### **Layanan Pengujian**:
-- **Kibana**: Untuk memvisualisasikan dan melakukan kueri log.
-- **Grafana + Loki**: Alternatif untuk visualisasi log dan analisis performa.
-
----
-
-### 7. **Monitoring Service (Opsional)**
-
-#### **Fungsi**:
-- Memantau performa dan kesehatan layanan, serta memberikan alert jika terjadi kegagalan.
-
-#### **Layanan Utama**:
-- **Prometheus**: Untuk mengumpulkan metrik dari setiap microservice.
-- **Grafana**: Untuk memvisualisasikan metrik, termasuk response time, throughput, dan availability.
-
-#### **Layanan Pengujian**:
-- **Grafana**: Untuk memantau metrik secara real-time dan melihat skala layanan selama pengujian.
-- **Prometheus**: Untuk memonitor status dan kesehatan dari layanan yang aktif.
-
----
-
-### Rangkuman:
-
-| Microservice             | Database               | Pengujian Utama                  | Tool Pengujian                    |
-|--------------------------|------------------------|----------------------------------|-----------------------------------|
-| Authentication Service    | PostgreSQL (Supabase)  | Waktu respons, keamanan          | Postman, OWASP ZAP                |
-| User Profile Service      | PostgreSQL (Supabase)  | Waktu respons, maintainability   | Postman, SonarQube                |
-| Encryption Service        | MongoDB/Firebase       | Throughput, fault tolerance      | Gatling, Chaos Monkey             |
-| File Management Service   | PostgreSQL (Supabase)  | Throughput, availability         | Locust, Grafana + Prometheus      |
-| API Gateway               | N/A                    | Routing, load balancing          | Postman, Gremlin                  |
-| Logging Service (Opsional)| Elasticsearch          | Log tracking                     | Kibana, Grafana + Loki            |
-| Monitoring Service (Opsional) | Prometheus        | Monitoring performa              | Grafana, Prometheus               |
+## Contribution
+Contributions to MicroEvalX are welcome. Please refer to our contribution guidelines for more information on how to submit pull requests, report issues, and request features.
