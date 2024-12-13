@@ -1,0 +1,50 @@
+EDAS Results
+
+Microservice 1:
+SP: 1.0030
+SN: 1.6967
+NSP: 1.0000
+NSN: 0.0000
+Appraisal Score: 0.5000
+Rank: 6
+
+Microservice 2:
+SP: 0.3561
+SN: 0.2119
+NSP: 0.3550
+NSN: 0.8751
+Appraisal Score: 0.6151
+Rank: 1
+
+Microservice 3:
+SP: 0.3478
+SN: 0.2062
+NSP: 0.3468
+NSN: 0.8784
+Appraisal Score: 0.6126
+Rank: 2
+
+Microservice 4:
+SP: 0.3429
+SN: 0.2017
+NSP: 0.3419
+NSN: 0.8811
+Appraisal Score: 0.6115
+Rank: 3
+
+Microservice 5:
+SP: 0.3310
+SN: 0.1939
+NSP: 0.3300
+NSN: 0.8857
+Appraisal Score: 0.6079
+Rank: 4
+
+Microservice 6:
+SP: 0.3189
+SN: 0.1893
+NSP: 0.3179
+NSN: 0.8884
+Appraisal Score: 0.6032
+Rank: 5
+

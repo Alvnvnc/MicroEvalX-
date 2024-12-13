@@ -1,0 +1,1372 @@
+[
+  {
+    "timestamp": "2024-10-20T19:34:07.000040",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/jest.config.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.075827",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.162271",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/context/context.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.233660",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/booking.contract.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.306107",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/flight.contract.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.388669",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/identity.contract.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.465840",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/passenger.contract.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.539972",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/error-handler/error-handler.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.621475",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/jwt/jwt.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.709534",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/logger.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.796782",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/morgan.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.876638",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/mediatr-js/mediatr-js.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:07.963967",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/prometheus.metrics.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.066837",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.153632",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-duration.middleware.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.253369",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry-options-builder.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.341420",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.444364",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection-options-builder.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.519839",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.613403",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer-options-builder.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.688646",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.779423",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-publisher.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.865510",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:08.948403",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/swagger/swagger.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.032488",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/postgres/postgres-container.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.111551",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/rabbitmq/rabbitmq-container.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.189274",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/typeorm/db-context.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.270239",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/core/event.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.340391",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/application.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.424515",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/conflict.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.507305",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/forbidden.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.591210",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/http-client.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.675266",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/not-found.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.761056",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/unauthorized.exception.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.840014",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/pagination/paged-result.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.912503",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/encryption.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:09.996572",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/reflection.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.073043",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/serialization.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.149056",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/time.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.225735",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/validation.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.300845",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/jest.config.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.374332",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/jest.config.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.445484",
+    "event": "Analyzing",
+    "details": "JavaScript file with esprima_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/jest.config.js"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:10.517615",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/app.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:11.021769",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:11.501081",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/dtos/booking.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:12.017419",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/entities/booking.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:12.501335",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/features/v1/create-booking/create-booking.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:12.998697",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/http-client/services/flight/flight.client.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:13.498434",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/booking/http-client/services/passenger/passenger.client.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:13.980950",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/data/data-source.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:14.473922",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/data/db.context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:14.955279",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/data/migrations/1702553396443-create-booking-table.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:15.425076",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/data/repositories/booking.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:15.910784",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/http-client.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:16.383397",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/logger.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:16.846465",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/mediatr.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:17.318414",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/otel.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:17.786733",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/rabbitmq.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:18.261839",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/repository.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:18.897362",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/routes/routes.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:19.497034",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:20.007803",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:20.500598",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/context/context.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:21.015856",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/context/context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:21.486724",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/booking.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:21.946618",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/booking.contract.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:22.422591",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/flight.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:22.904552",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/flight.contract.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:23.399775",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/identity.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:23.869082",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/identity.contract.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:24.380414",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/passenger.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:24.947801",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/passenger.contract.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:25.487806",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/error-handler/error-handler.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:26.038905",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/error-handler/error-handler.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:26.617468",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/jwt/jwt.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:27.127648",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/jwt/jwt.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:27.717750",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/logger.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:28.310688",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/logger.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:28.874398",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/morgan.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:29.408908",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/morgan.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:29.905816",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/mediatr-js/mediatr-js.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:30.444056",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/mediatr-js/mediatr-js.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:30.927070",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/prometheus.metrics.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:31.389038",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/prometheus.metrics.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:31.882929",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:32.353626",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:32.819248",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-duration.middleware.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:33.289778",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-duration.middleware.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:33.768476",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:34.241023",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry-options-builder.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:34.710715",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:35.166339",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:35.643775",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:36.104897",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection-options-builder.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:36.565059",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:37.040153",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:37.534458",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:38.039763",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer-options-builder.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:38.523468",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:39.012010",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:39.523488",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-publisher.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:39.992301",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-publisher.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:40.482937",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:40.944527",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:41.424931",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/swagger/swagger.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:41.881784",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/swagger/swagger.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:42.369597",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/postgres/postgres-container.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:42.832395",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/postgres/postgres-container.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:43.329403",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/rabbitmq/rabbitmq-container.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:43.798422",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/rabbitmq/rabbitmq-container.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:44.272735",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/typeorm/db-context.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:44.730062",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/typeorm/db-context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:45.211834",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/core/event.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:45.671267",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/core/event.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:46.147678",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/application.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:46.616288",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/application.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:47.086766",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/conflict.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:47.584736",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/conflict.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:48.055621",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/forbidden.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:48.518581",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/forbidden.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:48.991508",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/http-client.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:49.443615",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/http-client.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:49.906082",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/not-found.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:50.364588",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/not-found.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:50.830997",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/unauthorized.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:51.288158",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/unauthorized.exception.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:51.764773",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/pagination/paged-result.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:52.236957",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/pagination/paged-result.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:52.756034",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/encryption.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:53.265708",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/encryption.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:53.834673",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/reflection.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:54.306468",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/reflection.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:54.794492",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/serialization.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:55.265296",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/serialization.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:55.739371",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/time.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:56.237321",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/time.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:56.702240",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/validation.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:57.169096",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/validation.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:57.677068",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/app.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:58.232387",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/aircraft/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:58.746761",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/aircraft/dtos/aircraft.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:59.257513",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/aircraft/entities/aircraft.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:34:59.739462",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/aircraft/features/v1/create-aircraft/create-aircraft.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:00.254610",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/airport/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:00.740560",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/airport/dtos/airport.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:01.221487",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/airport/entities/airport.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:01.699596",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/airport/features/v1/create-airport/create-airport.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:02.211670",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/data-source.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:02.754039",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/db.context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:03.260309",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/migrations/1702553492495-create-flight-table.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:03.754569",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/repositories/aircraft.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:04.243028",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/repositories/airport.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:04.737989",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/repositories/flight.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:05.223296",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/repositories/seat.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:05.706322",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/data/seeds/flight.seed.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:06.250975",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/logger.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:06.741024",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/mediatr.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:07.236602",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/otel.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:07.715818",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/rabbitmq.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:08.197115",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/repository.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:08.664922",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:09.198621",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/dtos/flight.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:09.676352",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/entities/flight.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:10.166562",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/enums/flight-status.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:10.660550",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/features/v1/create-flight/create-flight.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:11.146579",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/flight/features/v1/get-flight-by-id/get-flight-by-id.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:11.633953",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/routes/routes.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:12.194376",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:12.697127",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/dtos/seat.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:13.222218",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/entities/seat.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:13.716317",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/enums/seat-class.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:14.267758",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/enums/seat-type.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:14.818687",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/features/v1/create-seat/create-seat.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:15.322966",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/features/v1/get-available-seats/get-available-seats.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:15.809608",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/seat/features/v1/reserve-seat/reserve-seat.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:16.339626",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/app.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:16.830257",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:17.384528",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/dtos/auth.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:17.869946",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/dtos/token.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:18.361694",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/entities/token.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:18.875892",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/enums/token-type.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:19.337853",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/features/v1/generate-token/generate-token.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:19.845965",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/features/v1/login/login.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:20.367214",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/features/v1/logout/logout.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:20.855164",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/features/v1/refresh-token/refresh-token.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:21.345099",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/auth/features/v1/validate-token/validate-token.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:21.836610",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/data-source.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:22.317939",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/db.context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:22.807353",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/migrations/1702550291057-create-user-table.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:23.283968",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/repositories/auth.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:23.759924",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/repositories/user.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:24.241379",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/data/seeds/user.seed.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:24.712576",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/logger.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:25.183138",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/mediatr.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:25.655832",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/otel.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:26.124348",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/rabbitmq.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:26.594524",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/repository.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:27.071759",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/routes/routes.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:27.647357",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/mapping.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:28.166558",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/dtos/user.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:28.675192",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/entities/user.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:29.214477",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/enums/role.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:29.753195",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/features/v1/create-user/create-user.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:30.224089",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/features/v1/delete-user-by-id/delete-user-by-id.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:30.722400",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/features/v1/get-user-by-id/get-user-by-id.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:31.220824",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/features/v1/get-users/get-users.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:31.734140",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/user/features/v1/update-user/update-user.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:32.219156",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/end-to-end-test/user/features/create-user.test.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:32.713388",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/integration-test/user/features/create-user.test.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:33.177439",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fakes/user/fake-create-user-request.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:33.686336",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fakes/user/fake-create-user.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:34.172893",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fakes/user/fake-user.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:34.704571",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fixtures/end-to-end.fixture.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:35.188327",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fixtures/integration-test.fixture.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:35.751438",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/unit-test/user/features/create-user.test.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:36.283440",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/app.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:36.786747",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/data/data-source.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:37.262699",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/data/db.context.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:37.758843",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/data/migrations/1702553578224-create-passenger-table.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:38.267357",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/data/repositories/passenger.repository.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:38.755022",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/logger.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:39.221333",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/mediatr.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:39.684716",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/otel.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:40.153137",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/rabbitmq.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:40.623185",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/repository.extensions.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:41.091647",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/mappings.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:41.557746",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/dtos/passenger.dto.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:42.031493",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/entities/passenger.entity.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:42.519223",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/enums/passenger-type.enum.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:42.979094",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/features/v1/get-passenger-by-id/get-passenger-by-id.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:43.514411",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/passenger/features/v1/get-passengers/get-passengers.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:44.054895",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/routes/routes.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:44.633082",
+    "event": "Analyzing",
+    "details": "TypeScript file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/user/consumers/create-user.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:45.122514",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:45.591465",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/context/context.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:46.053199",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/booking.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:46.522380",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/flight.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:47.014890",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/identity.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:47.502023",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/passenger.contract.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:47.984902",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/error-handler/error-handler.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:48.512220",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/jwt/jwt.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:48.986783",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/logger.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:49.503176",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/morgan.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:49.990377",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/mediatr-js/mediatr-js.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:50.468076",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/prometheus.metrics.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:50.956633",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:51.507439",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-duration.middleware.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:52.111107",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:52.711573",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:53.354582",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:53.928968",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:54.581753",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer-options-builder.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:55.165962",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:55.757931",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-publisher.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:56.410137",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:56.962354",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/swagger/swagger.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:57.596677",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/postgres/postgres-container.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:58.143478",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/rabbitmq/rabbitmq-container.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:58.753955",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/typeorm/db-context.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:35:59.356740",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/core/event.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:00.088319",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/application.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:00.846155",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/conflict.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:01.439435",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/forbidden.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:02.105682",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/http-client.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:02.716488",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/not-found.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:03.445123",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/unauthorized.exception.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:04.068433",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/pagination/paged-result.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:04.672399",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/encryption.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:05.325008",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/reflection.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:05.920074",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/serialization.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:06.522519",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/time.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:07.151510",
+    "event": "Analyzing",
+    "details": "TypeScript Declaration file with ts_morph_parser.js: /home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/validation.d.ts"
+  },
+  {
+    "timestamp": "2024-10-20T19:36:07.834335",
+    "event": "Report Saved",
+    "details": "Report saved to code_quality_report.json"
+  }
+]

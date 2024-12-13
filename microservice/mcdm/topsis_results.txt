@@ -1,0 +1,38 @@
+TOPSIS Analysis Results
+======================
+
+Metric Interpretations:
+- ALCOM (Algorithmic Complexity): Lower is better - Measures code complexity
+- ARQ (Architecture Quality): Lower is better - Measures architectural dependencies
+- NOO (Number of Operations): Lower is better - Measures API size
+- CC (Cyclomatic Complexity): Lower is better - Measures code complexity
+- MI (Maintainability Index): Higher is better - Measures maintainability
+- SAM (Software Architecture Modularity): Higher is better - Measures modularity
+- SGM (Structural Gap Metric): Higher is better - Measures structural quality
+- SIDC (Service Interface Data Cohesion): Higher is better - Measures interface cohesion
+
+Rankings:
+
+1. Microservice 6
+   TOPSIS Score: 0.6650
+   Interpretation: Good overall quality
+
+2. Microservice 5
+   TOPSIS Score: 0.6650
+   Interpretation: Good overall quality
+
+3. Microservice 4
+   TOPSIS Score: 0.6649
+   Interpretation: Good overall quality
+
+4. Microservice 3
+   TOPSIS Score: 0.6649
+   Interpretation: Good overall quality
+
+5. Microservice 2
+   TOPSIS Score: 0.6649
+   Interpretation: Good overall quality
+
+6. Microservice 1
+   TOPSIS Score: 0.5338
+   Interpretation: Good overall quality

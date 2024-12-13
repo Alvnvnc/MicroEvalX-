@@ -1,0 +1,9 @@
+{
+    "totalFunctions": 12686,
+    "totalClasses": 668,
+    "totalInputParameters": 20326,
+    "uniqueParameters": 1485,
+    "totalMethodFrequencies": 12686,
+    "lcom": 259.86164659826755,
+    "alcom": 0.3890144410153706
+}

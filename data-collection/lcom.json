@@ -1,0 +1,676 @@
+[
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/jest.config.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/context/context.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/booking.contract.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/flight.contract.js",
+        "metrics": {
+            "totalFunctions": 8,
+            "totalClasses": 8,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/identity.contract.js",
+        "metrics": {
+            "totalFunctions": 3,
+            "totalClasses": 3,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1,
+                1,
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/contracts/passenger.contract.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/error-handler/error-handler.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/jwt/jwt.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 0,
+            "inputParameters": 3,
+            "uniqueParameters": [
+                "request",
+                "securityName",
+                "scopes"
+            ],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/logger.js",
+        "metrics": {
+            "totalFunctions": 7,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                7
+            ],
+            "currentClassMethods": 7
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/logging/morgan.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/mediatr-js/mediatr-js.js",
+        "metrics": {
+            "totalFunctions": 4,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                4
+            ],
+            "currentClassMethods": 4
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/prometheus.metrics.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-duration.middleware.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 0,
+            "inputParameters": 1,
+            "uniqueParameters": [
+                "start"
+            ],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry-options-builder.js",
+        "metrics": {
+            "totalFunctions": 5,
+            "totalClasses": 2,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                5
+            ],
+            "currentClassMethods": 5
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/open-telemetry/open-telemetry.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection-options-builder.js",
+        "metrics": {
+            "totalFunctions": 6,
+            "totalClasses": 2,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                6
+            ],
+            "currentClassMethods": 6
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-connection.js",
+        "metrics": {
+            "totalFunctions": 5,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                5
+            ],
+            "currentClassMethods": 5
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer-options-builder.js",
+        "metrics": {
+            "totalFunctions": 4,
+            "totalClasses": 2,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                4
+            ],
+            "currentClassMethods": 4
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-consumer.js",
+        "metrics": {
+            "totalFunctions": 2,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                2
+            ],
+            "currentClassMethods": 2
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq-publisher.js",
+        "metrics": {
+            "totalFunctions": 2,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                2
+            ],
+            "currentClassMethods": 2
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/rabbitmq/rabbitmq.js",
+        "metrics": {
+            "totalFunctions": 3,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                3
+            ],
+            "currentClassMethods": 3
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/swagger/swagger.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/postgres/postgres-container.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/test/container/rabbitmq/rabbitmq-container.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/typeorm/db-context.js",
+        "metrics": {
+            "totalFunctions": 3,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                3
+            ],
+            "currentClassMethods": 3
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/core/event.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/application.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/conflict.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/forbidden.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/http-client.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/not-found.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/exception/unauthorized.exception.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/types/pagination/paged-result.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/encryption.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/reflection.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/serialization.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/time.js",
+        "metrics": {
+            "totalFunctions": 1,
+            "totalClasses": 0,
+            "inputParameters": 1,
+            "uniqueParameters": [
+                "ms"
+            ],
+            "methodFrequencies": [
+                1
+            ],
+            "currentClassMethods": 1
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/utils/validation.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/jest.config.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/jest.config.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/jest.config.js",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/app.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/http-client.extensions.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/booking/src/extensions/mediatr.extensions.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/config/config.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/building-blocks/monitoring/request-counter.middleware.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/app.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/flight/src/extensions/mediatr.extensions.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/app.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/src/extensions/mediatr.extensions.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/identity/test/shared/fixtures/end-to-end.fixture.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 1,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/app.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    },
+    {
+        "file_path": "/home/alvn/Documents/Playground/rsbp_testing/booking-microservices-expressjs/src/passenger/src/extensions/mediatr.extensions.ts",
+        "metrics": {
+            "totalFunctions": 0,
+            "totalClasses": 0,
+            "inputParameters": 0,
+            "uniqueParameters": [],
+            "methodFrequencies": [],
+            "currentClassMethods": 0
+        }
+    }
+]

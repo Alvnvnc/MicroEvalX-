@@ -1,0 +1,38 @@
+PROMETHEE Analysis Results
+=========================
+
+Metric Interpretations:
+- ALCOM (Algorithmic Complexity): Lower is better
+- ARQ (Architecture Quality): Lower is better
+- NOO (Number of Operations): Lower is better
+- CC (Cyclomatic Complexity): Lower is better
+- MI (Maintainability Index): Higher is better
+- SAM (Software Architecture Modularity): Lower is better
+- SGM (Structural Gap Metric): Higher is better
+- SIDC (Service Interface Data Cohesion): Higher is better
+
+Rankings:
+
+1. Microservice 1
+   Net Flow: 0.1016
+   Interpretation: Average performer
+
+2. Microservice 2
+   Net Flow: 0.0306
+   Interpretation: Average performer
+
+3. Microservice 3
+   Net Flow: 0.0054
+   Interpretation: Average performer
+
+4. Microservice 4
+   Net Flow: -0.0070
+   Interpretation: Below average performer
+
+5. Microservice 5
+   Net Flow: -0.0491
+   Interpretation: Below average performer
+
+6. Microservice 6
+   Net Flow: -0.0815
+   Interpretation: Below average performer

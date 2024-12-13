@@ -1,0 +1,8 @@
+node alcom/ts_morph_parser.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node arq/ts_morph.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node cc/cc_colection.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node mi/mi_collection.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node noo/ts_morph_paser.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node sam/ts_morph_panser.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node sgm/ts_morph_paser.js /home/alvn/Documents/Playground/rsbp_temp/microservice4
+node sidc/ts_morph_paser.js /home/alvn/Documents/Playground/rsbp_temp/microservice4

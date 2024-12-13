@@ -1,0 +1,74 @@
+Individual MCDM Scores and Rankings:
+
+TOPSIS Scores and Rankings:
+mi: Score = 0.00991380440084914, Rank = 3
+noo: Score = 1.0, Rank = 1
+lcom: Score = 0.006744246778714364, Rank = 4
+alcom: Score = 3.504427083704819e-06, Rank = 6
+cc: Score = 0.7838408972928594, Rank = 2
+arq: Score = 2.174367025911209e-06, Rank = 8
+sidc: Score = 2.2016106879845375e-06, Rank = 7
+sgm: Score = 0.00030280341343676966, Rank = 5
+sam: Score = 0.0, Rank = 9
+
+MOORA Scores and Rankings:
+mi: Score = 0.010107009638732678, Rank = 3
+noo: Score = 0.1111111111111111, Rank = 1
+lcom: Score = 0.008458730845095493, Rank = 4
+alcom: Score = 0.00020761298847515178, Rank = 6
+cc: Score = 0.07285318940193079, Rank = 2
+arq: Score = 0.00016360043770888226, Rank = 8
+sidc: Score = 0.0001646206489544604, Rank = 7
+sgm: Score = 0.001900685432113502, Rank = 5
+sam: Score = 0.0, Rank = 9
+
+COPRAS Scores and Rankings:
+mi: Score = 0.0909630867485941, Rank = 3
+noo: Score = 1.0, Rank = 1
+lcom: Score = 0.07612857760585943, Rank = 4
+alcom: Score = 0.001868516896276366, Rank = 6
+cc: Score = 0.6556787046173772, Rank = 2
+arq: Score = 0.0014724039393799403, Rank = 8
+sidc: Score = 0.0014815858405901438, Rank = 7
+sgm: Score = 0.017106168889021518, Rank = 5
+sam: Score = 0.0, Rank = 9
+
+PROMETHEE Scores and Rankings:
+mi: Score = 0.0909630867485941, Rank = 3
+noo: Score = 1.0, Rank = 1
+lcom: Score = 0.07612857760585943, Rank = 4
+alcom: Score = 0.001868516896276366, Rank = 6
+cc: Score = 0.6556787046173772, Rank = 2
+arq: Score = 0.0014724039393799403, Rank = 8
+sidc: Score = 0.0014815858405901438, Rank = 7
+sgm: Score = 0.017106168889021518, Rank = 5
+sam: Score = 0.0, Rank = 9
+
+EDAS Scores and Rankings:
+mi: Score = 0.0909630867485941, Rank = 3
+noo: Score = 1.0, Rank = 1
+lcom: Score = 0.07612857760585945, Rank = 4
+alcom: Score = 0.0018685168962763177, Rank = 6
+cc: Score = 0.6556787046173772, Rank = 2
+arq: Score = 0.0014724039393799737, Rank = 8
+sidc: Score = 0.001481585840590105, Rank = 7
+sgm: Score = 0.0171061688890215, Rank = 5
+sam: Score = 0.0, Rank = 9
+
+Total MCDM Scores (Sum of Scores Across All Metrics):
+TOPSIS Total Score: 1.8008096322906573
+MOORA Total Score: 0.20496656050412207
+COPRAS Total Score: 1.8446990445370988
+PROMETHEE Total Score: 1.8446990445370988
+EDAS Total Score: 1.8446990445370988
+
+Overall Combined (Averaged) Rankings:
+noo needs attention. Combined average rank: 1.0
+cc needs attention. Combined average rank: 2.0
+mi needs attention. Combined average rank: 3.0
+lcom needs attention. Combined average rank: 4.0
+sgm needs attention. Combined average rank: 5.0
+alcom needs attention. Combined average rank: 6.0
+sidc needs attention. Combined average rank: 7.0
+arq needs attention. Combined average rank: 8.0
+sam needs attention. Combined average rank: 9.0

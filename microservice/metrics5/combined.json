@@ -1,0 +1,53 @@
+[
+    {
+        "totalFunctions": 12732,
+        "totalClasses": 678,
+        "totalInputParameters": 20416,
+        "uniqueParameters": 1489,
+        "totalMethodFrequencies": 12732,
+        "lcom": 268.8730447366088,
+        "alcom": 0.39656791259086843
+    },
+    {
+        "totalFunctionsMethods": 143046,
+        "total_service_requests": 143046,
+        "arq": 1.398151643527257e-05
+    },
+    {
+        "totalEdges": 154403,
+        "totalNodes": 76827,
+        "totalConnectedComponents": 10111,
+        "totalCC": 97798
+    },
+    {
+        "totalLoc": 1080286,
+        "totalCyclomaticComplexity": 231230,
+        "totalHalsteadVolume": 3370503,
+        "avgCommentDensity": 0,
+        "avgMI": 57.40773002009643
+    },
+    {
+        "noo": 143046
+    },
+    {
+        "totalClasses": 2158,
+        "externalDependencies": 1101,
+        "sam": 0.489805375347544
+    },
+    {
+        "totalIpr": 126536,
+        "totalFp": 126536,
+        "totalOpr": 76827,
+        "totalCp": 2158,
+        "totalOt": 768270,
+        "totalWeights": 128694,
+        "totalDgs": 36.601019462465246,
+        "totalFgs": 5.96974217912257,
+        "totalSgm": 218.49864968396489
+    },
+    {
+        "totalClasses": 2158,
+        "maxInheritanceDepth": 9,
+        "sidc": 0.004170528266913809
+    }
+]
